@@ -1,5 +1,7 @@
 package com.example.lib_b;
 
+import com.example.lib_c.CUtils;
+
 public class BUtils {
 
     public static String getTestB1() {
@@ -7,7 +9,7 @@ public class BUtils {
     }
 
     public static String getTestB2() {
-        return "test_b_2";
+        return CUtils.getTestC();
     }
 
 }

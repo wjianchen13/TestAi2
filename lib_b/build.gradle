@@ -30,7 +30,7 @@ dependencies {
     implementation libs.appcompat
     implementation libs.material
     testImplementation libs.junit
-
+    implementation project(':lib_c')
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 }
