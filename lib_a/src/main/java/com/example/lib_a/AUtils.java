@@ -4,12 +4,12 @@ import com.example.lib_b.BUtils;
 
 public class AUtils {
 
-    public static String getTest1() {
+    public static String getTestA1() {
         return "test1";
     }
 
-    public static String getTest2() {
-        return BUtils.getTest2();
+    public static String getTestA2() {
+        return BUtils.getTestB1();
     }
 
 }

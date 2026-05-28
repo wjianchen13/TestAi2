@@ -9,7 +9,7 @@ public class AUtils1 {
     }
 
     public static String getTest3() {
-        return BUtils.getTest2();
+        return BUtils.getTestB1();
     }
 
 }

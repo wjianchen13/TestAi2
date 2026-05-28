@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onTest1(View v) {
-        Toast.makeText(this, AUtils.getTest1(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, AUtils.getTestA1(), Toast.LENGTH_SHORT).show();
     }
 
     public void onTest2(View v) {
-        Toast.makeText(this, AUtils.getTest2(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, AUtils.getTestA2(), Toast.LENGTH_SHORT).show();
     }
 
 }
