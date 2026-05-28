@@ -20,7 +20,10 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "TestAi2"
-include ':app'
-include ':lib_a'
+include ':main:app'
+include ':main:lib_a'
 include ':lib_b'
 include ':lib_c'
+
+// 可以把某个模块放到项目目录外部
+//project(':lib_c').projectDir = new File('../lib_c')
