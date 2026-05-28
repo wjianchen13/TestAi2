@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(lib_a/src/main/java/com/example/lib_a/**)"
+    ],
+    "allow": [
+      "Bash(dir *)",
+      "Read(lib_a/src/main/java/com/example/lib_a/**)"
+    ]
+  }
+}
